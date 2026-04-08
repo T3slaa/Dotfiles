@@ -122,7 +122,6 @@ cp tmux/.tmux.conf.local ~/.tmux.conf.local
 | `Win + 1-9` | Switch workspace |
 | `Win + Shift + 1-9` | Send window to workspace |
 | `Alt + Tab` | Next window |
-| `Alt + F4` | Close window |
 
 ### XTerm
 | Shortcut | Action |
@@ -167,6 +166,9 @@ This theme is optimized for **Kali Linux 2026.x** running Fluxbox as the window 
 ![Shell & Terminal Emulator](./assets/shell-termemulator.png)
 
 ![Rofi](./assets/rofi.png)
+
+![Notification](./assets/noti.png)
+![Critical notification](./assets/noti-critical.png)
 ---
 
 * Stay focused. 💀
