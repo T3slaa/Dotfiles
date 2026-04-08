@@ -1,4 +1,4 @@
-# BlackKali Dotfiles
+# BlackKali Dotfiles (Soon)
 
 > A minimal, old-school hacker aesthetic inspired by **Kali Linux 1.x** and **BlackArch Fluxbox**.  
 > Black backgrounds, red accents, Terminus font — built for focus.
@@ -164,7 +164,7 @@ This theme is optimized for **Kali Linux 2026.x** running Fluxbox as the window 
 
 ![Desktop](./assets/desktop.png)
 ![Shell & Terminal Emulator](./assets/shell-termemulator.png)
-
+![Tmux](./assets/tmux.png)
 ![Rofi](./assets/rofi.png)
 
 ![Notification](./assets/noti.png)
