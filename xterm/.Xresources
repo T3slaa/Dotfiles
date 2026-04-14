@@ -1,0 +1,37 @@
+XTerm*faceName:         Terminus
+XTerm*faceSize:         11
+XTerm*background:       #000000
+XTerm*foreground:       #F8F8F2
+XTerm*cursorColor:      #cc0000
+XTerm*cursorBlink:      true
+XTerm*scrollBar:        false
+XTerm*saveLines:        8000
+XTerm*internalBorder:   8
+XTerm*termName:         xterm-256color
+XTerm*selectToClipboard: true
+
+XTerm*color0:           #000000
+XTerm*color1:           #cc0000
+XTerm*color2:           #50fa7b
+XTerm*color3:           #f1fa8c
+XTerm*color4:           #6272a4
+XTerm*color5:           #BD93F9
+XTerm*color6:           #8be9fd
+XTerm*color7:           #F8F8F2
+XTerm*color8:           #444444
+XTerm*color9:           #ff5555
+XTerm*color10:          #50fa7b
+XTerm*color11:          #f1fa8c
+XTerm*color12:          #6272a4
+XTerm*color13:          #FF79C6
+XTerm*color14:          #8be9fd
+XTerm*color15:          #ffffff
+
+XTerm*VT100.translations: #override \
+    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>equal: larger-vt-font() \n\
+    Ctrl <Key>minus: smaller-vt-font() \n\
+    Ctrl <Key>0: set-vt-font(d) \n\
+    <Btn1Up>: select-end(PRIMARY,CLIPBOARD,CUT_BUFFER0)
+

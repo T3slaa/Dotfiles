@@ -1,0 +1,5 @@
+#!/bin/bash
+[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources &
+xsetroot -solid black &
+dunst &
+exec fluxbox

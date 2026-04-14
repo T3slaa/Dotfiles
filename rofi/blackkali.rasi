@@ -1,0 +1,69 @@
+* {
+    background-color:   #000000;
+    border-color:       #00bfff;
+    text-color:         #ffffff;
+    font:               "Terminus 11";
+    spacing:            0;
+}
+
+window {
+    background-color:   #000000;
+    border:             1px;
+    border-color:       #00bfff;
+    padding:            0;
+    width:              500px;
+}
+
+mainbox {
+    background-color:   #000000;
+    border:             0;
+    padding:            0;
+}
+
+inputbar {
+    background-color:   #000000;
+    border:             0 0 1px 0;
+    border-color:       #00bfff;
+    padding:            6px 8px;
+    children:           [ prompt, entry ];
+}
+
+prompt {
+    background-color:   #000000;
+    text-color:         #cc0000;
+    padding:            0 6px 0 0;
+}
+
+entry {
+    background-color:   #000000;
+    text-color:         #00bfff;
+    cursor-color:       #00bfff;
+}
+
+listview {
+    background-color:   #000000;
+    border:             0;
+    padding:            4px 0;
+    lines:              10;
+    columns:            1;
+}
+
+element {
+    background-color:   #000000;
+    text-color:         #aaaaaa;
+    padding:            4px 8px;
+    border:             0;
+}
+
+element selected {
+    background-color:   #001a2a;
+    text-color:         #ffffff;
+    border:             0 0 0 2px;
+    border-color:       #00bfff;
+}
+
+element-text {
+    background-color:   transparent;
+    text-color:         inherit;
+}
+

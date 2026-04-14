@@ -1,0 +1,98 @@
+[begin] (Kali Classic)
+
+    [submenu] (Information Gathering)
+        [exec] (Nmap)              {xterm -e nmap}
+        [exec] (Netdiscover)       {xterm -e netdiscover}
+        [exec] (Whois)             {xterm -e bash -c "read -p 'Target: ' t; whois $t; read"}
+        [exec] (DNSenum)           {xterm -e dnsenum}
+        [exec] (Recon-ng)          {xterm -e recon-ng}
+        [exec] (theHarvester)      {xterm -e theHarvester}
+    [end]
+
+    [submenu] (Vulnerability Analysis)
+        [exec] (Nikto)             {xterm -e nikto}
+        [exec] (OpenVAS)           {xterm -e openvas}
+        [exec] (Lynis)             {xterm -e lynis}
+        [exec] (Nmap Scripts)      {xterm -e bash -c "read -p 'Target: ' t; nmap -sV --script=vuln $t; read"}
+    [end]
+
+    [submenu] (Exploitation)
+        [exec] (Metasploit)        {xterm -e msfconsole}
+        [exec] (SQLmap)            {xterm -e sqlmap}
+        [exec] (BeEF)              {xterm -e beef-xss}
+        [exec] (Searchsploit)      {xterm -e bash -c "read -p 'Search: ' s; searchsploit $s; read"}
+    [end]
+
+    [submenu] (Wireless)
+        [exec] (Aircrack-ng)       {xterm -e aircrack-ng}
+        [exec] (Airodump-ng)       {xterm -e airodump-ng}
+        [exec] (Kismet)            {xterm -e kismet}
+        [exec] (Wifite)            {xterm -e wifite}
+        [exec] (Reaver)            {xterm -e reaver}
+    [end]
+
+    [submenu] (Password Attacks)
+        [exec] (Hashcat)           {xterm -e hashcat}
+        [exec] (John the Ripper)   {xterm -e john}
+        [exec] (Hydra)             {xterm -e hydra}
+        [exec] (Medusa)            {xterm -e medusa}
+        [exec] (CeWL)              {xterm -e cewl}
+    [end]
+
+    [submenu] (Forensics)
+        [exec] (Autopsy)           {autopsy}
+        [exec] (Binwalk)           {xterm -e binwalk}
+        [exec] (Foremost)          {xterm -e foremost}
+        [exec] (Volatility)        {xterm -e volatility}
+        [exec] (Wireshark)         {wireshark}
+    [end]
+
+    [submenu] (Web Apps)
+        [exec] (Burp Suite)        {burpsuite}
+        [exec] (OWASP ZAP)         {zaproxy}
+        [exec] (WPScan)            {xterm -e wpscan}
+        [exec] (Dirb)              {xterm -e dirb}
+        [exec] (Gobuster)          {xterm -e gobuster}
+    [end]
+
+    [submenu] (Sniffing & Spoofing)
+        [exec] (Wireshark)         {wireshark}
+        [exec] (Ettercap)          {xterm -e ettercap -T}
+        [exec] (Tcpdump)           {xterm -e tcpdump}
+        [exec] (Responder)         {xterm -e responder}
+    [end]
+
+    [submenu] (Reverse Engineering)
+        [exec] (GDB)               {xterm -e gdb}
+        [exec] (Radare2)           {xterm -e r2}
+        [exec] (Ghidra)            {ghidra}
+        [exec] (Strings)           {xterm -e bash -c "read -p 'File: ' f; strings $f | less; read"}
+    [end]
+
+    [separator]
+
+    [submenu] (Sistema)
+        [exec] (Terminal)           {xterm}
+    [exec] (Lanzador Rofi)      {rofi -show drun}
+    [exec] (Ejecutar comando)   {rofi -show run}
+        [exec] (File Manager)      {thunar}
+        [exec] (Firefox)           {firefox}
+        [exec] (Htop)              {xterm -e htop}
+        [exec] (Nano)              {xterm -e nano}
+    [end]
+
+    [submenu] (⚙️Fluxbox)
+        [config] (Preferencias)
+        [submenu] (Estilos)
+            [stylesdir] (~/.fluxbox/styles)
+        [end]
+        [workspaces] (Escritorios)
+        [reconfig] (Recargar config)
+        [restart] (Reiniciar)
+    [end]
+
+    [separator]
+    [exit] (Salir)
+
+[end]
+

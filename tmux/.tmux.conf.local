@@ -1,0 +1,18 @@
+# default theme - BlackKali
+tmux_conf_theme_colour_1="#000000"    # fondo principal
+tmux_conf_theme_colour_2="#111111"    # fondo secundario
+tmux_conf_theme_colour_3="#555555"    # gris apagado
+tmux_conf_theme_colour_4="#cc0000"    # rojo - acento principal
+tmux_conf_theme_colour_5="#cc0000"    # rojo - mensajes/modos
+tmux_conf_theme_colour_6="#000000"    # texto status left s1
+tmux_conf_theme_colour_7="#F8F8F2"    # texto status left s2
+tmux_conf_theme_colour_8="#F8F8F2"    # texto status left s3
+tmux_conf_theme_colour_9="#cc0000"    # bg status left s1
+tmux_conf_theme_colour_10="#880000"   # bg status left s2
+tmux_conf_theme_colour_11="#333333"   # bg status left s3
+tmux_conf_theme_colour_12="#888888"   # texto status right s1
+tmux_conf_theme_colour_13="#F8F8F2"   # texto status right s2
+tmux_conf_theme_colour_14="#000000"   # texto status right s3
+tmux_conf_theme_colour_15="#111111"   # bg status right s1
+tmux_conf_theme_colour_16="#cc0000"   # bg status right s2
+tmux_conf_theme_colour_17="#F8F8F2"   # bg status right s3

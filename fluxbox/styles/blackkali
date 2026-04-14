@@ -1,0 +1,132 @@
+background:                             flat gradient elliptic
+background.color:                       #000000
+background.colorTo:                     #000000
+
+menu.frame.font:                        xos4 terminus-12
+menu.title.font:                        xos4 terminus-12
+toolbar.clock.font:                     xos4 terminus-12
+toolbar.workspace.font:                 xos4 terminus-12
+toolbar.iconbar.focused.font:           xos4 terminus-12
+toolbar.iconbar.unfocused.font:         xos4 terminus-12
+window.font:                            xos4 terminus-12
+
+menu.bevelWidth:                        1
+menu.borderColor:                       #cc0000
+menu.borderWidth:                       1
+menu.bullet:                            triangle
+menu.bullet.position:                   Right
+menu.title:                             flat
+menu.title.justify:                     center
+menu.title.color:                       #000000
+menu.title.colorTo:                     #000000
+menu.title.textColor:                   #cc0000
+menu.frame:                             flat
+menu.frame.justify:                     left
+menu.frame.color:                       #000000
+menu.frame.colorTo:                     #000000
+menu.frame.textColor:                   #ffffff
+menu.frame.disableColor:                #444444
+menu.hilite:                            flat
+menu.hilite.color:                      #1a0a14
+menu.hilite.colorTo:                    #1a0a14
+menu.hilite.textColor:                  #ffffff
+
+toolbar.bevelWidth:                     0
+toolbar.borderWidth:                    1
+toolbar.borderColor:                    #cc0000
+toolbar.height:                         18
+toolbar.justify:                        center
+toolbar:                                flat
+toolbar.color:                          #000000
+toolbar.colorTo:                        #000000
+
+toolbar.clock:                          flat
+toolbar.clock.justify:                  center
+toolbar.clock.color:                    #000000
+toolbar.clock.colorTo:                  #000000
+toolbar.clock.textColor:                #cc0000
+
+toolbar.workspace:                      flat
+toolbar.workspace.justify:              Center
+toolbar.workspace.color:                #000000
+toolbar.workspace.colorTo:              #000000
+toolbar.workspace.textColor:            #cc0000
+
+toolbar.button:                         flat
+toolbar.button.color:                   #000000
+toolbar.button.colorTo:                 #000000
+toolbar.button.picColor:                #ffffff
+toolbar.button.pressed:                 sunken
+toolbar.button.pressed.color:           #1a0a14
+toolbar.button.pressed.colorTo:         #1a0a14
+toolbar.button.pressed.picColor:        #cc0000
+
+toolbar.iconbar.empty:                  flat
+toolbar.iconbar.empty.color:            #000000
+toolbar.iconbar.empty.colorTo:          #000000
+
+toolbar.iconbar.focused.borderWidth:    0
+toolbar.iconbar.focused.borderColor:    #000000
+toolbar.iconbar.focused:                flat
+toolbar.iconbar.focused.color:          #000000
+toolbar.iconbar.focused.colorTo:        #000000
+toolbar.iconbar.focused.textColor:      #ffffff
+toolbar.iconbar.focused.justify:        center
+
+toolbar.iconbar.unfocused.borderWidth:  0
+toolbar.iconbar.unfocused.borderColor:  #000000
+toolbar.iconbar.unfocused:              flat
+toolbar.iconbar.unfocused.color:        #000000
+toolbar.iconbar.unfocused.colorTo:      #000000
+toolbar.iconbar.unfocused.textColor:    #cc0000
+toolbar.iconbar.unfocused.justify:      center
+
+window.bevelWidth:                      0
+window.borderWidth:                     1
+window.borderColor:                     #cc0000
+window.justify:                         Center
+window.title.height:                    16
+
+window.title.focus:                     flat
+window.title.focus.color:               #000000
+window.title.focus.colorTo:             #000000
+window.title.unfocus:                   flat
+window.title.unfocus.color:             #111111
+window.title.unfocus.colorTo:           #111111
+
+window.label.focus:                     flat
+window.label.focus.color:               #000000
+window.label.focus.colorTo:             #000000
+window.label.focus.textColor:           #ffffff
+window.label.unfocus:                   flat
+window.label.unfocus.color:             #111111
+window.label.unfocus.colorTo:           #111111
+window.label.unfocus.textColor:         #555555
+
+window.button.focus:                    flat
+window.button.focus.color:              #000000
+window.button.focus.colorTo:            #000000
+window.button.focus.picColor:           #ffffff
+window.button.unfocus:                  flat
+window.button.unfocus.Color:            #111111
+window.button.unfocus.ColorTo:          #111111
+window.button.unfocus.picColor:         #555555
+window.button.pressed:                  flat
+window.button.pressed.color:            #1a0a14
+window.button.pressed.colorTo:          #1a0a14
+window.button.pressed.picColor:         #cc0000
+
+window.handle.focus:                    flat
+window.handle.focus.color:              #000000
+window.handle.focus.colorTo:            #000000
+window.handle.unfocus:                  flat
+window.handle.unfocus.color:            #111111
+window.handle.unfocus.colorTo:          #111111
+window.handleWidth:                     3
+
+window.grip.focus:                      flat
+window.grip.focus.color:                #000000
+window.grip.focus.colorTo:              #000000
+window.grip.unfocus:                    flat
+window.grip.unfocus.color:              #111111
+window.grip.unfocus.colorTo:            #111111

@@ -1,0 +1,46 @@
+# Mouse
+OnDesktop Mouse1 :HideMenus
+OnDesktop Mouse2 :WorkspaceMenu
+OnDesktop Mouse3 :RootMenu
+
+# Ventanas
+Mod4 q :Close
+Mod4 Shift q :Kill
+Mod1 Tab :NextWindow
+Mod1 Shift Tab :PrevWindow
+
+# Terminal
+Mod4 Return :Exec xterm
+
+# Rofi
+Mod4 d :Exec rofi -show drun
+
+# Aplicaciones
+Mod4 f :Exec thunar
+
+# Cambiar workspace
+Mod4 1 :Workspace 1
+Mod4 2 :Workspace 2
+Mod4 3 :Workspace 3
+Mod4 4 :Workspace 4
+Mod4 5 :Workspace 5
+Mod4 6 :Workspace 6
+Mod4 7 :Workspace 7
+Mod4 8 :Workspace 8
+Mod4 9 :Workspace 9
+
+# Mover ventana a workspace
+Mod4 Shift 1 :SendToWorkspace 1
+Mod4 Shift 2 :SendToWorkspace 2
+Mod4 Shift 3 :SendToWorkspace 3
+Mod4 Shift 4 :SendToWorkspace 4
+Mod4 Shift 5 :SendToWorkspace 5
+Mod4 Shift 6 :SendToWorkspace 6
+Mod4 Shift 7 :SendToWorkspace 7
+Mod4 Shift 8 :SendToWorkspace 8
+Mod4 Shift 9 :SendToWorkspace 9
+
+# Mover y redimensionar ventanas con mouse
+OnWindow Mod4 Mouse1 :StartMoving
+OnWindow Mod4 Mouse3 :StartResizing BottomRight
+OnWindowBorder Move1 :StartMoving
